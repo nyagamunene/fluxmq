@@ -4,65 +4,57 @@
 
 <div align="center">
 
-# Magistrala
+# SuperMQ
 
-### A Modern IoT Platform Built on SuperMQ
+### Planetary event-driven infrastructure
 
-### Scalable • Secure • Open-Source
+**Made with ❤️ by [Abstract Machines](https://absmach.eu/)**
 
-[![Check License Header](https://github.com/absmach/magistrala/actions/workflows/check-license.yaml/badge.svg?branch=main)](https://github.com/absmach/magistrala/actions/workflows/check-license.yaml)
-[![Continuous Delivery](https://github.com/absmach/magistrala/actions/workflows/build.yaml/badge.svg?branch=main)](https://github.com/absmach/magistrala/actions/workflows/build.yaml)
+[![Build Status](https://github.com/absmach/magistrala/actions/workflows/build.yaml/badge.svg?branch=main)](https://github.com/absmach/magistrala/actions/workflows/build.yaml)
 [![Go Report Card](https://goreportcard.com/badge/github.com/absmach/magistrala)](https://goreportcard.com/report/github.com/absmach/magistrala)
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/absmach/magistrala)
-[![Coverage](https://codecov.io/gh/absmach/magistrala/graph/badge.svg?token=SEMDAO3L09)](https://codecov.io/gh/absmach/magistrala)
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue?style=flat-square)](LICENSE)
-[![Matrix](https://img.shields.io/matrix/magistrala:matrix.org?style=flat-square)](https://matrix.to/#/#magistrala:matrix.org)
-
-### [Guide](https://docs.magistrala.absmach.eu) | [Contributing](CONTRIBUTING.md) | [Website](https://www.absmach.eu/magistrala) | [Chat](https://matrix.to/#/#magistrala:matrix.org)
-
-Made with ❤️ by [Abstract Machines](https://www.absmach.eu)
+[![Check License Header](https://github.com/absmach/magistrala/actions/workflows/check-license.yaml/badge.svg?branch=main)](https://github.com/absmach/magistrala/actions/workflows/check-license.yaml)
+[![Check Generated Files](https://github.com/absmach/magistrala/actions/workflows/check-generated-files.yaml/badge.svg?branch=main)](https://github.com/absmach/magistrala/actions/workflows/check-generated-files.yaml)
+[![Coverage](https://codecov.io/gh/absmach/magistrala/graph/badge.svg?token=nPCEr5nW8S)](https://codecov.io/gh/absmach/magistrala)
+[![License](https://img.shields.io/badge/license-Apache%20v2.0-blue.svg)](LICENSE)
+[![Matrix](https://img.shields.io/matrix/supermq%3Amatrix.org?label=Chat&style=flat&logo=matrix&logoColor=white)](https://matrix.to/#/#supermq:matrix.org)
+  
+### [Guide](https://magistrala.absmach.eu/docs/) | [Contributing](CONTRIBUTING.md) | [Website](https://absmach.eu/) | [Chat](https://matrix.to/#/#supermq:matrix.org)
 
 </div>
 
-## Introduction 🌍
+## Introduction 📖
 
-Magistrala is a cutting-edge, open-source IoT cloud platform built on top of [SuperMQ](https://github.com/absmach/supermq). It serves as a robust middleware solution for building complex IoT applications. With Magistrala, you can connect and manage IoT devices seamlessly using multi-protocol support, all while ensuring security and scalability.
+SuperMQ is a distributed, highly scalable, and secure open-source cloud platform for messaging and event-driven architecture (EDA). It is a planetarily distributed, highly scalable, and secure platform that serves as a robust foundation for building advanced real-time and reactive systems.
 
-### Key Benefits
+## Why SuperMQ Stands Out 🚀
 
-- **Unified IoT Management**: Connect sensors, actuators and applications over various network protocols.
-- **Scalability and Performance**: Designed to handle enterprise-grade IoT deployments.
-- **Secure by Design**: Features such as mutual TLS authentication and fine-grained access control.
-- **Open-Source Freedom**: Patent-free, community-driven, and designed for extensibility.
+SuperMQ bridges the gap between various network protocols (HTTP, MQTT, WebSocket, CoAP, and more) to provide a seamless messaging experience. Whether you're working on IoT solutions, real-time data pipelines, or event-driven systems, MagisSuperMQtrala has you covered. 🌐✨
 
-## ✨ Features
+## Key Features 🌟
 
-- 🏢 **Multi-Tenancy**: Support for managing multiple independent domains seamlessly.
-- 👥 **Multi-User Platform**: Unlimited organizational hierarchies and user roles for streamlined collaboration.
-- 🌐 **Multi-Protocol Connectivity**: HTTP, MQTT, WebSocket, CoAP, and more (see [contrib repository](https://www.github.com/absmach/mg-contrib) for LoRa and OPC UA).
-- 💻 **Device Management and Provisioning**: Including Zero-Touch provisioning for seamless device onboarding.
-- 🛡️ **Mutual TLS Authentication (mTLS)**: Secure communication using X.509 certificates.
-- 📜 **Fine-Grained Access Control**: Support for ABAC and RBAC policies.
-- 💾 **Message Persistence**: Timescale and PostgreSQL support (see [contrib repository](https://www.github.com/absmach/mg-contrib) for Cassandra, InfluxDB, and MongoDB).
-- 🔄 **Rules Engine (RE)**: Automate processes with flexible rules for decision-making.
-- 🚨 **Alarms and Triggers**: Immediate notifications for critical IoT events.
-- 📅 **Scheduled Actions**: Plan and execute tasks at predefined times.
-- 📝 **Audit Logs**: Maintain a detailed history of platform activities for compliance and debugging.
-- 📊 **Platform Logging and Instrumentation**: Integrated with Prometheus and OpenTelemetry.
-- ⚡ **Event Sourcing**: Streamlined architecture for real-time IoT event processing.
-- 🐳 **Container-Based Deployment**: Fully compatible with Docker and Kubernetes.
-- 🌍 **Edge and IoT Ready**: Agent and Export services for managing remote IoT gateways.
-- 🛠️ **Developer Tools**: Comprehensive SDK and CLI for efficient development.
-- 🏗️ **Domain-Driven Design**: High-quality codebase and extensive test coverage.
+- **Multi-Protocol Connectivity**: HTTP, MQTT, WebSocket, CoAP, and more! 🌉
+- **Secure by Design**: Mutual TLS (mTLS) with X.509 Certificates, JWT support, and multi-protocol authorization. 🔒
+- **Fine-Grained Access Control**: Support for ABAC and RBAC policies. 📜
+- **Multi-Tenant**: Manage multiple domains seamlessly. 🏢
+- **Multi-User**: Unlimited organizational hierarchies for user management. 👥
+- **Application Management**: Group and share messaging clients for streamlined operations. 📱
+- **Ease of Use**: Simple and powerful communication channel management, grouping, and sharing. ✨
+- **Personal Access Tokens (PATs)**: Scoped and revocable tokens for enhanced security. 🔑
+- **Observability**: Integrated logging and instrumentation with Prometheus and OpenTelemetry. 📈
+- **Event Sourcing**: Build robust and scalable architectures. ⚡
+- **Edge and IoT Ready**: Supports MQTT and CoAP protocols for seamless IoT gateway and sensor communication and management. 🌍
+- **Developer-Friendly**: SDKs, CLI tools, and comprehensive documentation to get you started. 👩‍💻👨‍💻
+- **Production-Ready**: Container-based deployment using Docker and Kubernetes. 🐳☸️
 
 ## Installation 🛠️
 
-There are multiple ways to run Magistrala.
+There are multiple ways to run SuperMQ.
 First, clone the repository and position to it:
 
 ```bash
-git clone https://github.com/absmach/magistrala.git
-cd magistrala
+git clone https://github.com/absmach/supermq.git
+cd supermq
 ```
 
 To run the latest stable (tagged) version, use:
@@ -92,7 +84,7 @@ git checkout main
 
 ### Running on Apple Silicon (M1/M2/M3) Macs
 
-When running Magistrala on Apple Silicon Macs, the Makefile will automatically detect your ARM64 architecture and build Docker images locally. 
+When running SuperMQ on Apple Silicon Macs, the Makefile will automatically detect your ARM64 architecture and build Docker images locally. 
 
 **If using Docker Desktop:**
 
@@ -104,48 +96,62 @@ When running Magistrala on Apple Silicon Macs, the Makefile will automatically d
 
 After enabling these options, restart Docker Desktop, then run `make run_stable` or `make run_latest` as usual.
 
+To manually run SuperMQ, clone the repository and start all core services:
 
-## 📤 Usage
+```bash
+docker compose -f docker/docker-compose.yaml --env-file docker/.env up
+```
+
+### Usage 📤📥
 
 **Using the CLI :**
 
-Check the health of a specific service using the CLI:
-
 ```bash
 make cli
-./build/cli health <service>
+./build/supermq-cli status
 ```
 
-Replace `<service>` with the name of the service you want to check.
+This command retrieves the status of the SuperMQ server and outputs it to the console.
 
-**Using Curl :**
-
-Alternatively, use a simple HTTP `GET` request to check the platform's health:
+**Using HTTP with Curl :**
 
 ```bash
-curl -X GET http://localhost:8080/health
+curl -X GET http://localhost:8080/status
 ```
 
-For additional usage examples and advanced configurations, visit the [official documentation](https://docs.magistrala.absmach.eu).
+This request fetches the server status over HTTP and provides a JSON response.
 
-## 📚 Documentation
+See our [CLI documentation](https://magistrala.absmach.eu/docs/dev-guide/cli/introduction-to-cli/) for more details.
 
-Complete documentation is available at the [Magistrala official docs page](https://docs.magistrala.absmach.eu).
+## Documentation 📚
 
-For CLI usage details, visit the [CLI Documentation](https://docs.magistrala.absmach.eu/dev-guide/cli/introduction-to-cli).
+The official documentation is hosted at [SuperMQ docs page](https://magistrala.absmach.eu/docs/).
 
-## 🌐 Community and Contributing
+Documentation is auto-generated, check out the instructions in the [docs repository](https://github.com/absmach/magistrala-website).
+If you spot an error or a need for corrections, please let us know - or even better: send us a PR! 💌
 
-Join the community and contribute to the future of IoT middleware:
+## Community and Contributing 🤝
 
-- [Open Issues](https://github.com/absmach/magistrala/issues)
-- [Contribution Guide](CONTRIBUTING.md)
-- [Matrix Chat](https://matrix.to/#/#magistrala:matrix.org)
+Thank you for your interest in SuperMQ and the desire to contribute!
 
-## 📜 License
+1. Take a look at our [open issues](https://github.com/absmach/magistrala/issues). The [good-first-issue](https://github.com/absmach/magistrala/labels/good-first-issue) label is specifically for issues that are great for getting started.
+2. Checkout the [contribution guide](CONTRIBUTING.md) to learn more about our style and conventions.
+3. Make your changes compatible to our workflow.
 
-Magistrala is open-source software licensed under the [Apache-2.0](LICENSE) license. Contributions are welcome and encouraged!
+Join our community:
 
-## 💼 Professional Support
+- [Matrix Room](https://matrix.to/#/#supermq\:matrix.org)
 
-Need help deploying Magistrala or integrating it into your systems? Contact **[Abstract Machines](https://www.absmach.eu)** for expert guidance and support.
+## Professional Support 💼
+
+Need help deploying SuperMQ or integrating it into your system? Reach out to **[Abstract Machines](https://absmach.eu/)** for professional support and guidance.
+
+## License 📜
+
+SuperMQ is open-source software licensed under the [Apache License 2.0](LICENSE). Contributions are welcome!
+
+## Acknowledgments 🙌
+
+Special thanks to the amazing contributors who make SuperMQ possible. Check out the [MAINTAINERS](MAINTAINERS) file to see the team behind the magic.
+
+Ready to build the future of messaging and event-driven systems? Let's get started! 🚀
