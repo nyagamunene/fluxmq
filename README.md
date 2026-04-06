@@ -1,3 +1,7 @@
+> [!WARNING]
+> This repository is obsolete. All of its content has been merged to [www.github.com/absmach/magistrala](https://www.github.com/absmach/magistrala).
+> Please use that repository for all active development.
+
 <div align="center">
 
 # Magistrala
